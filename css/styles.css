@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.button-pricing {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.button-pricinglk:hover {
+  background-color: #ff3c66;
+  border-color: #ff3c66;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.cta-title {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.each-feature {
+  padding: 0 5.2%;
+}
+
+.features {
+  text-align: center;
+  padding: 0 5%;
+}
+
+.feature-pg {
+  color: #8f8f8f;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding: 8% 0 2% 0;
+}
+
+.icon-footer {
+  margin: 14px;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.img-dog {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-exp {
+  border-color: #ff4c68;
+  border-radius: 0.25rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  padding: 8% 4%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 18%;
+}
+
+#footer {
+  text-align: center;
+  padding: 6% 0 2%;
+}
+
+@media (max-width: 1000px) {
+
+  .title-elements {
+    text-align: center;
+  }
+
+  .img-dog {
+    transform: rotate(0deg);
+    position: static;
+    width: 40%;
+  }
+
+  .feature-title {
+    padding-top: 4%;
+    }
+
+  .icons {
+    margin-top: 6%;
+  }
+
+}
